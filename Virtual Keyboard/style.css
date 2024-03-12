@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-size: 30px;
+    background-color: hotpink;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #adff14; ;
+    padding: .5rem;
+    margin: .3rem;
+    height: 50px;
+    width: 50px;
+}
+.delete,
+.shift-btn,
+.space {
+    font-size: 1rem;
+    text-transform: capitalize;
+    
+}
+.delete {width: 120px;}
+.shift-btn {width: 140px;}
+.space {width: 350px;}
+.enter-btn {width: 140px;}
+
+.text-area {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.upper {text-transform: uppercase;}
+
+.row {
+    display: flex;
+}
